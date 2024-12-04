@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException
-from models import Employee, EmployeeBase, CreateEmployee
-from database import create_connection, create_table
+from backend.models import Employee, EmployeeBase, CreateEmployee
+from backend.database import create_connection, create_table
 from typing import List
 
 app = FastAPI(
